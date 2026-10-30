@@ -1,0 +1,6 @@
+# Set default behavior to normalize all text files to LF in the repo
+* text=auto
+
+# Explicitly ensure source code and lockfiles use LF
+*.dart text eol=lf
+pubspec.lock text eol=lf
